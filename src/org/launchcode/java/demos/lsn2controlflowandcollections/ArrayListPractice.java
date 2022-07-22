@@ -2,7 +2,7 @@ package org.launchcode.java.demos.lsn2controlflowandcollections;
 import java.util.ArrayList;
 
 public class ArrayListPractice {
-    public static void main(String[] arg){
+    public static void main(String[] args){
     ArrayList<Integer> myNun = new ArrayList<Integer>();
         myNun.add(2);
         myNun.add(3);

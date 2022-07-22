@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayLPract2 {
-    public static String WorldLength(String theArray){
+    public static void WorldLength(String theArray){
 
         String[] nextArr = theArray.split(" ");
         ArrayList<String> arrLst = new ArrayList<>(Arrays.asList(nextArr));
@@ -19,6 +19,5 @@ public class ArrayLPract2 {
                 System.out.println(j);
             }
         }
-        return "";
     }
 }
