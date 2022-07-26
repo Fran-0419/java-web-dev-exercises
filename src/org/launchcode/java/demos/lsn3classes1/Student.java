@@ -9,5 +9,39 @@ public class Student {
     private int studentId;
     private int numberOfCredits = 0;
     private double gpa = 0.0;
+    public String getName() {
+        return this.name;
+    }
+
+    public int getStudentId() {
+        return this.studentId;
+    }
+
+    public int getNumberOfCredits() {
+        return this.numberOfCredits;
+    }
+
+    public double getGpa() {
+        return this.gpa;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setStudentId(int astudentId){
+        this.studentId = astudentId;
+    }
+
+    private  void setNumberOfCredits(int aNumberOfCredits){
+        this.numberOfCredits = aNumberOfCredits;
+    }
+
+    public  void setGpa(double aGpa){
+        this.gpa = aGpa;
+    }
+
+    public void newStudenCredit(int StudenCredit){
+        this.setNumberOfCredits(StudenCredit);
+    }
 
 }
