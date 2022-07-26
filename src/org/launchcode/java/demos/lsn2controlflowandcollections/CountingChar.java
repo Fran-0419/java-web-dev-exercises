@@ -13,12 +13,14 @@ public class CountingChar {
                 if(!numbers.containsKey(letter)){
                     numbers.put(letter, 1);
                 } else{
+                    //numbers.replace(letter,(numbers.get(letter)+ 1)) ;
                     numbers.put(letter, (numbers.get(letter)+ 1));
                 }
             }
+
+        }
         for(Map.Entry<Character, Integer> number : numbers.entrySet()){
             System.out.println(String.format("%s : %s", number.getKey(), number.getValue()));
-        }
         }
     }
 }
