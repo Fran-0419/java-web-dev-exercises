@@ -10,13 +10,19 @@ public class SchoolPractice {
         fran.setGpa(4.0);
         fran.setStudentId(21);
 
+        /*System.out.println(fran.getGradeLevel(fran.getNumberOfCredits()));
+        System.out.println(fran.getGpa());
+        fran.addGrade(4,5);
+        System.out.println(fran.getGpa());
+        fran.addGrade(4,6);
+        System.out.println(fran.getGpa());
+
         Teacher myTeacher = new Teacher();
 
         myTeacher.setFirstName("Gerard");
         myTeacher.setLastName("Darris");
         myTeacher.teachersSubject("Java");
-        myTeacher.teachersYearsTeaching(4);
-        //System.out.println(fran.getNumberOfCredits());
-        System.out.println(("Teacher's name: " + myTeacher.getFirstName() +" "+ myTeacher.getLastName() + " \n"));
+        myTeacher.teachersYearsTeaching(4);*/
+        //System.out.println(("Teacher's name: " + myTeacher.getFirstName() +" "+ myTeacher.getLastName() + " \n"));
     }
 }
